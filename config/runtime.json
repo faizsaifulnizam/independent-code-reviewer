@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "provider": "opencode-go",
+  "model": "deepseek-v4.1-flash",
+  "endpoint": "https://opencode.ai/zen/go/v1/chat/completions",
+  "effort": "high",
+  "wall_time_s": 900,
+  "cleanup_reserve": 5,
+  "max_responses": 7,
+  "max_input_bytes": 131072,
+  "max_response_bytes": 1048576,
+  "max_output_tokens": 4096,
+  "network_timeout": 60,
+  "context_paths": ["examples/invoices.py"]
+}
