@@ -1,9 +1,9 @@
 {
   "schema_version": "0.2",
-  "version": 2,
+  "version": 3,
   "grants": {
     "step1-live": {
-      "enabled": true,
+      "enabled": false,
       "repository_id": 1427604823,
       "repository": "faizsaifulnizam/independent-code-reviewer",
       "actor_id": 240133439,
