@@ -1,6 +1,6 @@
 {
   "schema_version": "0.2",
-  "version": 6,
+  "version": 7,
   "grants": {
     "step1-live": {
       "enabled": false,
@@ -35,41 +35,6 @@
       ],
       "public_only": true,
       "expires_at": "2026-10-21T07:26:56.426197+00:00"
-    },
-    "step1-pr7-54667fbc": {
-      "actor_id": 240133439,
-      "context_paths": [
-        "examples/invoices.py"
-      ],
-      "efforts": [
-        "high"
-      ],
-      "enabled": true,
-      "expires_at": "2026-11-19T19:32:16.030395+00:00",
-      "max_responses": 7,
-      "model": "deepseek-v4.1-flash",
-      "modes": [
-        "draft"
-      ],
-      "policy_digest": "27c599bf459d9fc0a659419d13b01c4ec96d16997c745a36f5039e4c06578a7f",
-      "provider": "opencode-go",
-      "public_only": true,
-      "repository": "faizsaifulnizam/independent-code-reviewer",
-      "repository_id": 1427604823,
-      "runtime_digest": "da8d5bed5f28f158b09436b4829b857bfc1cefb862cb1a5820b8e64c5fa1e03b",
-      "subjects": {
-        "pull_request": [
-          7
-        ]
-      },
-      "triggers": [
-        "manual"
-      ],
-      "use_balance_off": true,
-      "limits": {
-        "changed_paths": 1,
-        "comments": 0
-      }
     }
   }
 }
