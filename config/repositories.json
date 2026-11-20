@@ -1,6 +1,6 @@
 {
   "schema_version": "0.2",
-  "version": 14,
+  "version": 15,
   "grants": {
     "step1-live": {
       "enabled": false,
@@ -35,44 +35,6 @@
       ],
       "public_only": true,
       "expires_at": "2026-10-21T07:26:56.426197+00:00"
-    },
-    "issue8-pilot-74f33d29": {
-      "repository_id": 1427604823,
-      "repository": "faizsaifulnizam/independent-code-reviewer",
-      "actor_id": 240133439,
-      "policy_digest": "381b0482055f9f39a2e14e053c933c0ba50e3dda0266ef1663a0e2a02feb289e",
-      "runtime_digest": "b0670a7436aea6af548a86c7b18074725a302999ba8c9d3506380eb5d656ca50",
-      "enabled": true,
-      "subjects": {
-        "issue": [
-          8
-        ]
-      },
-      "modes": [
-        "draft"
-      ],
-      "triggers": [
-        "manual"
-      ],
-      "efforts": [
-        "high"
-      ],
-      "max_responses": 4,
-      "use_balance_off": true,
-      "public_only": true,
-      "provider": "opencode-go",
-      "model": "deepseek-v4.1-flash",
-      "context_paths": [
-        "reviewer/runner.py"
-      ],
-      "limits": {
-        "changed_paths": 1,
-        "comments": 1,
-        "file_bytes": 20000,
-        "thread_bytes": 5000,
-        "total_bytes": 25000
-      },
-      "expires_at": "2026-11-20T11:32:42.755010+00:00"
     }
   }
 }
