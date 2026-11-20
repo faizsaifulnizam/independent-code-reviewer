@@ -3,6 +3,6 @@
 
 def get_invoice(invoices, user_id, invoice_id):
     invoice = invoices.get(invoice_id)
-    if invoice is None or invoice["owner_id"] != user_id:
+    if invoice is None:
         return None
     return invoice
