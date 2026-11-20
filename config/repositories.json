@@ -35,6 +35,44 @@
       ],
       "public_only": true,
       "expires_at": "2026-10-21T07:26:56.426197+00:00"
+    },
+    "mvp-8-60113798": {
+      "repository_id": 1427604823,
+      "repository": "faizsaifulnizam/independent-code-reviewer",
+      "actor_id": 240133439,
+      "policy_digest": "4af1724179bfe4ff000901daaf00bf55fdb10d2a42976f843c8a77ff7c57c42b",
+      "runtime_digest": "d8af28bc483739dcc234fbd133f1ee44fd8298d50a4f5b5ba6ca4ad5279c2c4a",
+      "enabled": true,
+      "subjects": {
+        "issue": [
+          8
+        ]
+      },
+      "modes": [
+        "draft"
+      ],
+      "triggers": [
+        "manual"
+      ],
+      "efforts": [
+        "low"
+      ],
+      "max_responses": 4,
+      "use_balance_off": true,
+      "public_only": true,
+      "provider": "opencode-go",
+      "model": "deepseek-v4.1-flash",
+      "context_paths": [
+        "reviewer/runner.py"
+      ],
+      "limits": {
+        "changed_paths": 1,
+        "comments": 1,
+        "file_bytes": 20000,
+        "thread_bytes": 5000,
+        "total_bytes": 25000
+      },
+      "expires_at": "2026-11-20T16:51:02.681095+00:00"
     }
   }
 }
