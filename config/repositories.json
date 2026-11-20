@@ -1,6 +1,6 @@
 {
   "schema_version": "0.2",
-  "version": 17,
+  "version": 18,
   "grants": {
     "step1-live": {
       "enabled": false,
@@ -35,6 +35,44 @@
       ],
       "public_only": true,
       "expires_at": "2026-10-21T07:26:56.426197+00:00"
+    },
+    "mvp-8-a25ed2c4": {
+      "repository_id": 1427604823,
+      "repository": "faizsaifulnizam/independent-code-reviewer",
+      "actor_id": 240133439,
+      "policy_digest": "4af1724179bfe4ff000901daaf00bf55fdb10d2a42976f843c8a77ff7c57c42b",
+      "runtime_digest": "cbaf6adcaaf50a1ab39e0808860d070696cb47aa29eb785cce48429e1ef4531c",
+      "enabled": true,
+      "subjects": {
+        "issue": [
+          8
+        ]
+      },
+      "modes": [
+        "draft"
+      ],
+      "triggers": [
+        "manual"
+      ],
+      "efforts": [
+        "high"
+      ],
+      "max_responses": 4,
+      "use_balance_off": true,
+      "public_only": true,
+      "provider": "opencode-go",
+      "model": "deepseek-v4.1-flash",
+      "context_paths": [
+        "reviewer/runner.py"
+      ],
+      "limits": {
+        "changed_paths": 1,
+        "comments": 1,
+        "file_bytes": 20000,
+        "thread_bytes": 5000,
+        "total_bytes": 25000
+      },
+      "expires_at": "2026-11-20T12:55:06.427702+00:00"
     }
   }
 }
